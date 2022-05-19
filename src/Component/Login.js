@@ -1,9 +1,10 @@
 import React from 'react'
+import Header from './Header'
 
 const Login = () => {
   return (
     <div>
-
+<Header/>
 <div className="container">
     <div className="row g-2">
         <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -19,9 +20,9 @@ const Login = () => {
                 </div>
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-12">
                     <button className="btn btn-success">Success</button>
-                    
+                    <a href="/register">New users click here</a>
                 </div>
-                <a href="Register.js">New users click here</a>
+                
             </div>
         </div>
     </div>
