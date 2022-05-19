@@ -12,14 +12,16 @@ const Login = () => {
                       <label for="" className="form-label">Username</label>
                       <input placeholder="Enter your name" type="text" className="form-control"/>
                 </div>
-                <div className="col col-12 col-sm-6 col-md-6 col-lg-12 col-xl-6 col-xxl-6">
+                <div className="col col-12 col-sm-6 col-md-6 col-lg-1 col-xl-6 col-xxl-6">
                     <label for="" className="form-label">Password</label>
                     <input placeholder="Enter your password" type="password" name="" id="" className="form-control"/>
                      
                 </div>
-                <div className="col col-12 col-sm-6 col-md-6 col-lg-12 col-xl-6 col-xxl-12">
+                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-12">
                     <button className="btn btn-success">Success</button>
+                    
                 </div>
+                <a href="Register.js">New users click here</a>
             </div>
         </div>
     </div>
